@@ -1,9 +1,11 @@
-const ItemListContainer = ({ greeting }) => {
-  return (
-    <section style={{ padding: '2rem', textAlign: 'center' }}>
-      <h2>{greeting}</h2>
-    </section>
-  );
-};
+import React from 'react'
 
-export default ItemListContainer;
+function ItemListContainer({ greeting }) {
+  return (
+    <div style={{ textAlign: 'center', marginTop: '50px' }}>
+      <h2>{greeting}</h2>
+    </div>
+  )
+}
+
+export default ItemListContainer
